@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+    /* background-color: black; */
+    text-align: center;
+    margin: 10px;
+  }
+  
+  h4 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+    /* background-color: black; */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+main{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuntainer{
+    background-color: white;
+    min-height: 80vh;
+    width: 60%;
+    z-index: 2;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 251, 251, 0.199),
+        rgba(255, 255, 255, 0.288)
+    );
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px rgba(94, 92, 92, 0.2);
+}
+
+
+.cuntainer:hover{
+    box-shadow: 6px 6px 20px rgba(95, 91, 91, 0.432);
+}
+
+.round{
+    background-color: white;
+    height: 30vh;
+    width: 30vh;
+    background: linear-gradient(
+        to right top, 
+        rgba(255, 255, 255, 0.568),
+        rgba(255, 255, 255, 0.226)
+    );
+    border-radius: 50%;
+}
+#round1 {
+    position: absolute;
+    top: 17px;
+    right: 180px;
+}
+#round2 {
+    position: absolute;
+    bottom: 12px;
+    left: 200px;
+}
+
+.cards{
+    background-color: white;
+    z-index: 3;
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    margin:  auto;
+    margin-top: 30px;
+    background: none;
+    
+}
+.card1, .card2, .card3{
+    background: black;
+    z-index: 4;
+    display: flex;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(
+        to right top, 
+        rgba(255, 255, 255, 0.253),
+        rgba(238, 236, 236, 0.404)
+    );
+   
+}
+.card1:hover, .card2:hover, .card3:hover{
+    box-shadow: 6px 6px 20px rgba(95, 91, 91, 0.432);
+    width: 220px;
+    margin: 0;
+}
+
+
+
